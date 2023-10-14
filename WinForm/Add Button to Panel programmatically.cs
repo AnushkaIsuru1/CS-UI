@@ -29,5 +29,11 @@ private void makeBtn(Panel p, Boolean t)
             b.FlatAppearance.BorderColor = boader;
             b.Left = lef;
             b.Top = 4;
-
+            b.Size = new Size(70, 32);
+            b.FlatStyle = FlatStyle.Flat;
+            b.Font = new Font("Nirmala UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point, ((byte)(0)));
+            b.ForeColor = Color.FromArgb(200, 200, 200);
+            b.UseVisualStyleBackColor = false;
+            b.Click += e;
+            p.Controls.Add(b);
         }
