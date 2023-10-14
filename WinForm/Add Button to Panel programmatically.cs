@@ -21,4 +21,13 @@ private void makeBtn(Panel p, Boolean t)
                 txt = "DELETE";
             }
 
+            Button b = new Button();
+            b.Text = txt;
+            b.BackColor = bg;
+            b.FlatAppearance.MouseOverBackColor = hovwe;
+            b.FlatAppearance.MouseDownBackColor = active;
+            b.FlatAppearance.BorderColor = boader;
+            b.Left = lef;
+            b.Top = 4;
+
         }
