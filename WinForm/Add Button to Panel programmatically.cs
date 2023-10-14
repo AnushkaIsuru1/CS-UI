@@ -9,6 +9,16 @@ private void makeBtn(Panel p, Boolean t)
             int lef = 700;
             string txt = "EDIT";
             
-
+            //Config Delete button
+            if (t)
+            {
+                bg = Color.FromArgb(52,15,30);
+                hovwe = Color.FromArgb(120,8,25);
+                active = Color.FromArgb(150,8,25);
+                boader = Color.FromArgb(120,10,26);
+                e = new EventHandler(this.delete);
+                lef = 780;
+                txt = "DELETE";
+            }
 
         }
