@@ -4,5 +4,10 @@
             l.BackColor = bg;
             l.ForeColor = Color.FromArgb(175, 175, 175);
             l.AutoSize = false;
-
+            l.Height = 40;
+            l.Width = w;
+            l.Dock = DockStyle.Left;
+            l.Padding = new Padding(10, 0, 10, 0);
+            l.TextAlign = ContentAlignment.MiddleLeft;
+ 
         }
