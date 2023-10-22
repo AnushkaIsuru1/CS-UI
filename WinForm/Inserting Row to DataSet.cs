@@ -1,1 +1,1 @@
-\
+radGridView1.Rows.Add("Adding New Row", 12.5, DateTime.Now, true);
