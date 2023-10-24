@@ -67,6 +67,12 @@
             
             tablBody.Controls.Add(p);
             
-
+            makeBtn(p, true);//Add delete Button
+            makeBtn(p, false);//Add Edit Button
+            makeCell(p, 230, addr, bg);//Add Address
+            makeCell(p, 145, un, bg);//Add User name
+            makeCell(p, 125, snm, bg);//Add Sir name
+            makeCell(p, 125,  nm, bg);//Add Name
+            makeCell(p, 60, id, bg);//Add ID
         }
 
