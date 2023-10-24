@@ -55,4 +55,8 @@
             p.Controls.Add(b);
         }
         
+        private void Addrow(Boolean tp, string id, string nm, string snm, string un, string addr )
+        {
+
+        }
 
