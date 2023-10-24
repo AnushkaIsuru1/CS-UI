@@ -60,7 +60,13 @@
             Color bg = Color.FromArgb(40, 40, 40);
             if (tp) { bg = Color.FromArgb(32, 32, 32); }//Making Zebra style
 
-
+            Panel p = new Panel();
+            p.BackColor = bg;
+            p.Dock = DockStyle.Top;
+            p.Size = new Size(880, 40);
+            
+            tablBody.Controls.Add(p);
+            
 
         }
 
