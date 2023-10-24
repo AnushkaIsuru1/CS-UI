@@ -57,6 +57,10 @@
         
         private void Addrow(Boolean tp, string id, string nm, string snm, string un, string addr )
         {
+            Color bg = Color.FromArgb(40, 40, 40);
+            if (tp) { bg = Color.FromArgb(32, 32, 32); }//Making Zebra style
+
+
 
         }
 
