@@ -15,4 +15,13 @@
             p.Controls.Add(l);
         }
 
+        private void makeBtn(Panel p, Boolean t)
+        {
+
+            
+
+
+
+        }
+        
 
