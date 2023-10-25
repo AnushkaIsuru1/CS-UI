@@ -88,5 +88,6 @@
                 Addrow(st, reader["id"].ToString(), reader["nm"].ToString(), reader["snm"].ToString(), reader["un"].ToString(), reader["addr"].ToString());
                 st = !st;//Toggle row background
             }
-
+            reader.Close();
+            conn.Close();
         }
