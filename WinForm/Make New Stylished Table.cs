@@ -76,3 +76,13 @@
             makeCell(p, 60, id, bg);//Add ID
         }
 
+        private void tableWrite(string sql)
+        {
+            tablBody.Controls.Clear();
+            MySqlConnection conn = mysqlCon();
+            MySqlCommand cmd = new MySqlCommand(sql, conn);
+            MySqlDataReader reader = cmd.ExecuteReader();
+            Boolean st = true;
+
+
+        }
