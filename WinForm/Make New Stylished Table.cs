@@ -83,6 +83,10 @@
             MySqlCommand cmd = new MySqlCommand(sql, conn);
             MySqlDataReader reader = cmd.ExecuteReader();
             Boolean st = true;
-
+            while (reader.Read())
+            {
+                Addrow(st, reader["id"].ToString(), reader["nm"].ToString(), reader["snm"].ToString(), reader["un"].ToString(), reader["addr"].ToString());
+                st = !st;//Toggle row background
+            }
 
         }
