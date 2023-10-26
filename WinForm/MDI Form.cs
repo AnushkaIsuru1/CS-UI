@@ -12,5 +12,8 @@
 
         private void EditMenu_Click(object sender, EventArgs e)
         {
-
+            f2.MdiParent = this;
+            f1.Visible = false;
+            f2.Visible = true;
+            f2.Show();
         }
