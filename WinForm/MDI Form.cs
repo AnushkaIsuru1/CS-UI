@@ -3,6 +3,10 @@
 
         private void FileMenu_Click(object sender, EventArgs e)
         {
-
+            
+            f1.MdiParent = this;
+            f2.Visible = false;
+            f1.Visible = true;
+            f1.Show();
         }
 
