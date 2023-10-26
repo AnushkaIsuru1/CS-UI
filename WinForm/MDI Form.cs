@@ -10,3 +10,7 @@
             f1.Show();
         }
 
+        private void EditMenu_Click(object sender, EventArgs e)
+        {
+
+        }
