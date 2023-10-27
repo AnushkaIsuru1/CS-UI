@@ -10,4 +10,7 @@ public partial class Form1 : Form
             Region = Region.FromHrgn(CreateRoundRectRgn(0, 0, Width, Height, 25, 25));
     }
 
+    [DllImport("Gdi32", EntryPoint = "CreateRoundRectRgn")]
+
+
 }
