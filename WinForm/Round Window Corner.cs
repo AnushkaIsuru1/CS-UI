@@ -11,6 +11,13 @@ public partial class Form1 : Form
     }
 
     [DllImport("Gdi32", EntryPoint = "CreateRoundRectRgn")]
-
+    private static extern IntPtr CreateRoundRectRgn(
+             int nLefetRect,
+             int nToptRect,
+             int nRightRect,
+             int nBottomRect,
+             int nWidthEllipse,
+             int nHeightEllipse
+    );
 
 }
