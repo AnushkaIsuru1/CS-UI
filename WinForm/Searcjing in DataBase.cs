@@ -7,5 +7,9 @@
             {
                 tableWrite($"SELECT `id`, `nm`, `snm`, `un`, `addr` FROM `user` WHERE nm LIKE('{s}%') OR snm LIKE('{s}%') OR un LIKE('{s}%') OR addr LIKE('{s}%');");
             }
-   
+            else
+            {
+                t.Text = "Search...";
+                tableWrite("SELECT id, `nm`, `snm`, `un`, `addr` FROM `user`;");
+            }
         }
