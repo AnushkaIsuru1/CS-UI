@@ -47,7 +47,13 @@ namespace WindowsFormsApp4
             checkbox.HeaderText = "CheckBox";
             dataGridView.Columns.Add(checkbox);
 
+            //LInk
+            DataGridViewLinkColumn link = new DataGridViewLinkColumn();
+            link.HeaderText = "Page Link";
+            dataGridView.Columns.Add(link);
 
+
+            
         }
     }
 }
