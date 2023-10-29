@@ -42,6 +42,12 @@ namespace WindowsFormsApp4
             //img.Image = Properties.Resources.1.png;
             dataGridView.Columns.Add(img);
 
+            //CheckBox
+            DataGridViewCheckBoxColumn checkbox = new DataGridViewCheckBoxColumn();
+            checkbox.HeaderText = "CheckBox";
+            dataGridView.Columns.Add(checkbox);
+
+
         }
     }
 }
