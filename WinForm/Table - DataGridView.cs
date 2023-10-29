@@ -36,6 +36,11 @@ namespace WindowsFormsApp4
             btn.HeaderText = "EDIT";
             dataGridView.Columns.Add(btn);
 
+            //Image Column
+            DataGridViewImageColumn img = new DataGridViewImageColumn();
+            img.HeaderText = "Image";
+            //img.Image = Properties.Resources.1.png;
+            dataGridView.Columns.Add(img);
 
         }
     }
