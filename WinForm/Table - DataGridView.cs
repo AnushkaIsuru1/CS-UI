@@ -17,6 +17,11 @@ namespace WindowsFormsApp4
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            DataTable table = new DataTable();//For store data of Tablee
+            DataGridView dataGridView = new DataGridView();// For show data of table
+            dataGridView.Size = new Size(784, 250);
+            panel1.Controls.Add(dataGridView);
+
 
         }
     }
