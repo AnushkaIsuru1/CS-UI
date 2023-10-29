@@ -25,6 +25,11 @@ namespace WindowsFormsApp4
             table.Columns.Add("ID", typeof(int));
             table.Columns.Add("Name", typeof(string));
 
+            table.Rows.Add(1, "One");
+            table.Rows.Add(2, "Two");
+            table.Rows.Add(2, "Two");
+            table.Rows.Add(2, "Two");
+            dataGridView.DataSource = table;
 
 
         }
