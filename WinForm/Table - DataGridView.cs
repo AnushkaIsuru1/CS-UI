@@ -22,6 +22,10 @@ namespace WindowsFormsApp4
             dataGridView.Size = new Size(784, 250);
             panel1.Controls.Add(dataGridView);
 
+            table.Columns.Add("ID", typeof(int));
+            table.Columns.Add("Name", typeof(string));
+
+
 
         }
     }
