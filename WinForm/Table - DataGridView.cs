@@ -31,6 +31,11 @@ namespace WindowsFormsApp4
             table.Rows.Add(2, "Two");
             dataGridView.DataSource = table;
 
+            //Button Column
+            DataGridViewButtonColumn btn = new DataGridViewButtonColumn();
+            btn.HeaderText = "EDIT";
+            dataGridView.Columns.Add(btn);
+
 
         }
     }
