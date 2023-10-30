@@ -52,7 +52,12 @@ namespace WindowsFormsApp4
             link.HeaderText = "Page Link";
             dataGridView.Columns.Add(link);
 
-
+            DataGridViewComboBoxColumn comb = new DataGridViewComboBoxColumn();
+            comb.HeaderText = "SDSD";
+            comb.Items.Add("1");
+            comb.Items.Add("2");
+            comb.Items.Add("3");
+            dataGridView.Columns.Add(comb);
             
         }
     }
