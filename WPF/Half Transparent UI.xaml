@@ -19,7 +19,11 @@
             <ColumnDefinition Width="3*"></ColumnDefinition>
             <ColumnDefinition Width="5*"></ColumnDefinition>
         </Grid.ColumnDefinitions>
-
+        <Image Source="2.png" Stretch="Fill" Grid.Column="0" Opacity="1">
+            <Image.Effect>
+                <BlurEffect Radius="50" RenderingBias="Quality"></BlurEffect>
+            </Image.Effect>
+        </Image>
 
     </Grid>
     
