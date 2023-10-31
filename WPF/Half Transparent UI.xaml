@@ -10,6 +10,9 @@
         WindowStyle="None"
         MouseDown="WIndow_MouseDown">
     
+    <Window.Background>
+        <SolidColorBrush Opacity=".5" Color="#005050"></SolidColorBrush>
+    </Window.Background>
 
     
 </Window>
