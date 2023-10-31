@@ -26,7 +26,11 @@
         </Image>
         <Rectangle Fill="#202020" Grid.Column="1" Grid.RowSpan="2"></Rectangle>
         <Grid>
-
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*"></RowDefinition>
+                <RowDefinition Height="1*"></RowDefinition>
+                <RowDefinition Height="1*"></RowDefinition>
+            </Grid.RowDefinitions>
 
         </Grid>
     </Grid>
