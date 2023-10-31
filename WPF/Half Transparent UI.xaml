@@ -13,6 +13,10 @@
     <Window.Background>
         <SolidColorBrush Opacity=".5" Color="#005050"></SolidColorBrush>
     </Window.Background>
+    
+    <Grid>
 
+
+    </Grid>
     
 </Window>
