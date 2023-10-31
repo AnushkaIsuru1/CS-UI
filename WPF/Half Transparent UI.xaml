@@ -25,7 +25,10 @@
             </Image.Effect>
         </Image>
         <Rectangle Fill="#202020" Grid.Column="1" Grid.RowSpan="2"></Rectangle>
+        <Grid>
 
+
+        </Grid>
     </Grid>
     
 </Window>
