@@ -31,7 +31,9 @@
                 <RowDefinition Height="1*"></RowDefinition>
                 <RowDefinition Height="1*"></RowDefinition>
             </Grid.RowDefinitions>
-
+            <Button Grid.Row="0" Background="Transparent" BorderThickness="0" Foreground="Aqua" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Content="Hiru" FontSize="40"></Button>
+            <Button Grid.Row="1" Background="Transparent" BorderThickness="0" Foreground="Aqua" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Content="Sha" FontSize="40"></Button>
+            <Button Grid.Row="2" Background="Transparent" BorderThickness="0" Foreground="Aqua" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Content="Rithem" FontSize="40"></Button>
         </Grid>
     </Grid>
     
