@@ -9,5 +9,5 @@
         WindowStartupLocation="CenterScreen"
         WindowStyle="None"
         AllowsTransparency="True" Background="Transparent">
-    
+    <Border Background="Transparent" CornerRadius="30" Opacity=".5" BorderThickness="10" BorderBrush="Aqua"></Border>
 </Window>
