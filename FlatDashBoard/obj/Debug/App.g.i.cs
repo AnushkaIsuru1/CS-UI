@@ -47,7 +47,17 @@ namespace FlatDashBoard {
         /// </summary>
         [System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [System.CodeDom.Compiler.GeneratedCodeAttribute("PresentationBuildTasks", "4.0.0.0")]
+        public void InitializeComponent() {
+            if (_contentLoaded) {
+                return;
+            }
+            _contentLoaded = true;
+            
+            #line 5 "..\..\App.xaml"
+            this.StartupUri = new System.Uri("MainWindow.xaml", System.UriKind.Relative);
+            
 
+        }
         
 
     }
