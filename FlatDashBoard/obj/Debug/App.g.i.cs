@@ -34,6 +34,14 @@ using System.Windows.Shell;
 
 namespace FlatDashBoard {
     
+    
+    /// <summary>
+    /// App
+    /// </summary>
+    public partial class App : System.Windows.Application {
+        
 
+
+    }
 }
 
