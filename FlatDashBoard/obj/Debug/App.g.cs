@@ -55,7 +55,17 @@ namespace FlatDashBoard {
             
             #line 5 "..\..\App.xaml"
             this.StartupUri = new System.Uri("MainWindow.xaml", System.UriKind.Relative);
-
+            
+            #line default
+            #line hidden
+            System.Uri resourceLocater = new System.Uri("/FlatDashBoard;component/app.xaml", System.UriKind.Relative);
+            
+            #line 1 "..\..\App.xaml"
+            System.Windows.Application.LoadComponent(this, resourceLocater);
+            
+            #line default
+            #line hidden
+        }
         
 
 
