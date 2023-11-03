@@ -40,7 +40,15 @@ namespace FlatDashBoard {
     /// </summary>
     public partial class App : System.Windows.Application {
         
+        private bool _contentLoaded;
+        
+        /// <summary>
+        /// InitializeComponent
+        /// </summary>
+        [System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("PresentationBuildTasks", "4.0.0.0")]
 
+        
 
     }
 }
