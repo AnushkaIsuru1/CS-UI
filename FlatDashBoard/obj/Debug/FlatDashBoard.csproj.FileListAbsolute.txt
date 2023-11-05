@@ -1,0 +1,16 @@
+H:\VB\FlatDashBoard\FlatDashBoard\bin\Debug\FlatDashBoard.exe.config
+H:\VB\FlatDashBoard\FlatDashBoard\bin\Debug\FlatDashBoard.exe
+H:\VB\FlatDashBoard\FlatDashBoard\bin\Debug\FlatDashBoard.pdb
+H:\VB\FlatDashBoard\FlatDashBoard\obj\Debug\FlatDashBoard.csprojAssemblyReference.cache
+H:\VB\FlatDashBoard\FlatDashBoard\obj\Debug\MainWindow.g.cs
+H:\VB\FlatDashBoard\FlatDashBoard\obj\Debug\App.g.cs
+H:\VB\FlatDashBoard\FlatDashBoard\obj\Debug\FlatDashBoard_MarkupCompile.cache
+H:\VB\FlatDashBoard\FlatDashBoard\obj\Debug\FlatDashBoard_MarkupCompile.lref
+H:\VB\FlatDashBoard\FlatDashBoard\obj\Debug\MainWindow.baml
+H:\VB\FlatDashBoard\FlatDashBoard\obj\Debug\FlatDashBoard.g.resources
+H:\VB\FlatDashBoard\FlatDashBoard\obj\Debug\FlatDashBoard.Properties.Resources.resources
+H:\VB\FlatDashBoard\FlatDashBoard\obj\Debug\FlatDashBoard.csproj.GenerateResource.cache
+H:\VB\FlatDashBoard\FlatDashBoard\obj\Debug\FlatDashBoard.csproj.CoreCompileInputs.cache
+H:\VB\FlatDashBoard\FlatDashBoard\obj\Debug\FlatDashBoard.exe
+H:\VB\FlatDashBoard\FlatDashBoard\obj\Debug\FlatDashBoard.pdb
+H:\VB\FlatDashBoard\FlatDashBoard\obj\Debug\App.baml
