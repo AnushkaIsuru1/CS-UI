@@ -34,6 +34,13 @@ using System.Windows.Shell;
 
 namespace FlatDashBoard {
     
+    
+    /// <summary>
+    /// MainWindow
+    /// </summary>
+    public partial class MainWindow : System.Windows.Window, System.Windows.Markup.IComponentConnector {
+        
 
+    }
 }
 
