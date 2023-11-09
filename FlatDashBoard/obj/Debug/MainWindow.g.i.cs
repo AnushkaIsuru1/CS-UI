@@ -51,7 +51,10 @@ namespace FlatDashBoard {
             if (_contentLoaded) {
                 return;
             }
-
+            _contentLoaded = true;
+            System.Uri resourceLocater = new System.Uri("/FlatDashBoard;component/mainwindow.xaml", System.UriKind.Relative);
+            
+   
         }
 
     }
