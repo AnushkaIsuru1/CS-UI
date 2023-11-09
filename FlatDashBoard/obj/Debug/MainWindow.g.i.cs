@@ -48,7 +48,10 @@ namespace FlatDashBoard {
         [System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [System.CodeDom.Compiler.GeneratedCodeAttribute("PresentationBuildTasks", "4.0.0.0")]
         public void InitializeComponent() {
-  
+            if (_contentLoaded) {
+                return;
+            }
+
         }
 
     }
