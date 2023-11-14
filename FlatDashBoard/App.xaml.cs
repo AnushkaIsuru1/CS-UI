@@ -8,5 +8,8 @@ using System.Windows;
 
 namespace FlatDashBoard
 {
+    /// <summary>
+    /// Interaction logic for App.xaml
+    /// </summary>
 
 }
