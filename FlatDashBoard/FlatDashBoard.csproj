@@ -50,6 +50,10 @@
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
   </ItemGroup>
+  <ItemGroup>
+
+
+  </ItemGroup>
 
  
 </Project>
