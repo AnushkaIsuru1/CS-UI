@@ -35,7 +35,7 @@
                         </Border>
                         <TextBlock Text="Anushka Isuru" DockPanel.Dock="Top" Foreground="#eeeeee" FontSize="22" FontWeight="SemiBold" Margin="5 25 0 10"> </TextBlock>
                         <TextBlock Text="UX/UI Designer" DockPanel.Dock="Top" Foreground="#aaaaaa" FontSize="14" Margin="10 20" TextAlignment="Justify"></TextBlock>
-                       
+                        <Separator Margin="50" Background="#ffffff" DockPanel.Dock="Top" Height=".8"></Separator>
                     </DockPanel>
                 </Border>
             </Grid>
