@@ -14,7 +14,8 @@
     <Border Background="#505050" CornerRadius="30" Opacity="1" BorderThickness="3" BorderBrush="Aqua">
         <Grid>
             <Grid.ColumnDefinitions>
-                
+                <ColumnDefinition Width="2*"></ColumnDefinition>
+                <ColumnDefinition Width="15*"></ColumnDefinition>
             </Grid.ColumnDefinitions>
 
             
