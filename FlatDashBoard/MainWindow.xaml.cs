@@ -15,4 +15,8 @@ using System.Windows.Shapes;
 
 namespace FlatDashBoard
 {
+    /// <summary>
+    /// Interaction logic for MainWindow.xaml
+    /// </summary>
 
+}
